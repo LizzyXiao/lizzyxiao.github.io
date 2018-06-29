@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Elizabeth Xiao</title>
+  
+  <subtitle>elizabeth</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://elizabethxiao.ink/"/>
+  <updated>2018-06-29T06:48:10.294Z</updated>
+  <id>http://elizabethxiao.ink/</id>
+  
+  <author>
+    <name>Elizabeth Xiao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://elizabethxiao.ink/2018/06/29/hello-world/"/>
+    <id>http://elizabethxiao.ink/2018/06/29/hello-world/</id>
+    <published>2018-06-29T06:48:10.293Z</published>
+    <updated>2018-06-29T06:48:10.294Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to Elizabeth Xiao’s site!</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"New Post Name"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h3><p>Write your post.</p><h3 id="One-command-to-Generate-and-Deploy"><a href="#One-command-to-Generate-and-Deploy" class="headerlink" title="One command to Generate and Deploy"></a>One command to Generate and Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h3 id="Run-server-to-preview"><a href="#Run-server-to-preview" class="headerlink" title="Run server to preview"></a>Run server to preview</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to Elizabeth Xiao’s site!&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="http://elizabethxiao.ink/2018/06/29/My-New-Post/"/>
+    <id>http://elizabethxiao.ink/2018/06/29/My-New-Post/</id>
+    <published>2018-06-29T06:02:50.000Z</published>
+    <updated>2018-06-29T06:48:10.293Z</updated>
+    
+    <content type="html"><![CDATA[<p>this is my pages.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;this is my pages.&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="hei hei" scheme="http://elizabethxiao.ink/tags/hei-hei/"/>
+    
+  </entry>
+  
+</feed>
