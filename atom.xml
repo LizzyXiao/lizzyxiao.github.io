@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elizabethxiao.ink/"/>
-  <updated>2018-06-29T08:56:13.923Z</updated>
+  <updated>2018-06-29T09:03:43.736Z</updated>
   <id>http://elizabethxiao.ink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://elizabethxiao.ink/2018/06/29/a/"/>
     <id>http://elizabethxiao.ink/2018/06/29/a/</id>
     <published>2018-06-29T08:56:13.000Z</published>
-    <updated>2018-06-29T08:56:13.923Z</updated>
+    <updated>2018-06-29T09:03:43.736Z</updated>
     
     <summary type="html">
     
@@ -35,16 +35,16 @@
     <link href="http://elizabethxiao.ink/2018/06/29/A-Trip-to-shengsi/"/>
     <id>http://elizabethxiao.ink/2018/06/29/A-Trip-to-shengsi/</id>
     <published>2018-06-29T08:51:09.000Z</published>
-    <updated>2018-06-29T09:03:31.454Z</updated>
+    <updated>2018-06-29T09:04:49.792Z</updated>
     
-    <content type="html"><![CDATA[<p>hello had we but time engough and time zkjdiwndkasjif</p><p><img src="../../../img/avatar.jpg" alt="Alt text"></p>]]></content>
+    <content type="html"><![CDATA[<p>hello had we but time engough and time zkjdiwndkasjif</p><p><img src="/img/avatar.jpg" alt="Alt text"></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;hello had we but time engough and time zkjdiwndkasjif&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../img/avatar.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/avatar.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
 
       
     
