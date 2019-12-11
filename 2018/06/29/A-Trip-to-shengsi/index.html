@@ -80,7 +80,7 @@
         <hgroup class="introduce">
           <h5 class="nickname" id="name">Lizzy Xiao</h5>
           
-            <div id="yiyanmotto" class="motto">&nbsp;</div>
+            <div id="mymotto" class="motto"></div>
           
         </hgroup>
       </div>
@@ -315,9 +315,9 @@
 <nav class="post-nav flex-row flex-justify-between">
   
     <div class="waves-block waves-effect prev">
-      <a href="/2018/12/05/Endeavor/" id="post-prev" class="post-nav-link">
+      <a href="/2018/12/05/EndeavorPilot/" id="post-prev" class="post-nav-link">
         <h4 class="title" >
-          上一篇：Endeavor Pilot 《摩斯探长》先导集解析
+          上一篇：Endeavor Pilot 《摩斯探长前传》先导集解析
         </h4>
       </a>
     </div>
@@ -325,8 +325,8 @@
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2018/06/29/My-New-Post/" id="post-next" class="post-nav-link">
-        <h4 class="title" data-hover="下一篇：My New Post">下一篇：My New Post</h4>
+      <a href="/2016/09/23/cummings1/" id="post-next" class="post-nav-link">
+        <h4 class="title" data-hover="下一篇：少女 珍惜时间">下一篇：少女 珍惜时间</h4>
       </a>
     </div>
   
@@ -561,7 +561,12 @@ postshow();
 
 /* 座右铭 */
 
-   getHitokoto();
+    elasticText({
+        id: "mymotto",
+        duration: 100,
+        effact: "easeOut",
+        content: ""
+    });
 
 
 

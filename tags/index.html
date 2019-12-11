@@ -78,7 +78,7 @@
         <hgroup class="introduce">
           <h5 class="nickname" id="name">Lizzy Xiao</h5>
           
-            <div id="yiyanmotto" class="motto">&nbsp;</div>
+            <div id="mymotto" class="motto"></div>
           
         </hgroup>
       </div>
@@ -203,7 +203,7 @@
     <div class="container body-wrap fade">
         
             <h5 class="tag-tip"><i class="icon icon-lg icon-tags"></i>
-                目前共4个标签
+                目前共11个标签
             </h5>
             <div class="card-pool">
             
@@ -219,10 +219,10 @@
 </a>
 
                 
-                    <a class="MyTagLink" href="/tags/Endeavor-摩斯探长-英剧/" itemprop="url">
+                    <a class="MyTagLink" href="/tags/Endeavor/" itemprop="url">
     <div class="card-card">
         <div class="card-container">
-            <span href="/tags/Endeavor-摩斯探长-英剧/" class="card-link">Endeavor 摩斯探长 英剧</span>
+            <span href="/tags/Endeavor/" class="card-link">Endeavor</span>
             <span class="card-count">
                 (1)
             </span>
@@ -231,10 +231,34 @@
 </a>
 
                 
-                    <a class="MyTagLink" href="/tags/J2-EAD/" itemprop="url">
+                    <a class="MyTagLink" href="/tags/摩斯探长/" itemprop="url">
     <div class="card-card">
         <div class="card-container">
-            <span href="/tags/J2-EAD/" class="card-link">J2 EAD</span>
+            <span href="/tags/摩斯探长/" class="card-link">摩斯探长</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/英剧/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/英剧/" class="card-link">英剧</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/Marvell-马维尔/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/Marvell-马维尔/" class="card-link">Marvell 马维尔</span>
             <span class="card-count">
                 (1)
             </span>
@@ -243,10 +267,70 @@
 </a>
 
                 
-                    <a class="MyTagLink" href="/tags/hei-hei/" itemprop="url">
+                    <a class="MyTagLink" href="/tags/英诗/" itemprop="url">
     <div class="card-card">
         <div class="card-container">
-            <span href="/tags/hei-hei/" class="card-link">hei hei</span>
+            <span href="/tags/英诗/" class="card-link">英诗</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/爱情/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/爱情/" class="card-link">爱情</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/Herrick-赫瑞克/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/Herrick-赫瑞克/" class="card-link">Herrick 赫瑞克</span>
+            <span class="card-count">
+                (1)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/Endeavour/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/Endeavour/" class="card-link">Endeavour</span>
+            <span class="card-count">
+                (1)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/J2/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/J2/" class="card-link">J2</span>
+            <span class="card-count">
+                (1)
+            </span>
+        </div>
+    </div>
+</a>
+
+                
+                    <a class="MyTagLink" href="/tags/EAD/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/tags/EAD/" class="card-link">EAD</span>
             <span class="card-count">
                 (1)
             </span>
@@ -400,7 +484,12 @@ postshow();
 
 /* 座右铭 */
 
-   getHitokoto();
+    elasticText({
+        id: "mymotto",
+        duration: 100,
+        effact: "easeOut",
+        content: ""
+    });
 
 
 

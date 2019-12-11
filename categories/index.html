@@ -78,7 +78,7 @@
         <hgroup class="introduce">
           <h5 class="nickname" id="name">Lizzy Xiao</h5>
           
-            <div id="yiyanmotto" class="motto">&nbsp;</div>
+            <div id="mymotto" class="motto"></div>
           
         </hgroup>
       </div>
@@ -203,10 +203,46 @@
     
     	<h5 class="tag-tip">
             <i class="icon icon-lg icon-th-list"></i>
-            目前共&nbsp;0&nbsp;大分类
+            目前共&nbsp;3&nbsp;大分类
         </h5>
         <div class="card-pool">
             
+                    <a class="MyTagLink" href="/categories/英剧/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/categories/英剧/" class="card-link">英剧</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                    
+                    <a class="MyTagLink" href="/categories/英诗-文学/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/categories/英诗-文学/" class="card-link">英诗 文学</span>
+            <span class="card-count">
+                (2)
+            </span>
+        </div>
+    </div>
+</a>
+
+                    
+                    <a class="MyTagLink" href="/categories/美国/" itemprop="url">
+    <div class="card-card">
+        <div class="card-container">
+            <span href="/categories/美国/" class="card-link">美国</span>
+            <span class="card-count">
+                (1)
+            </span>
+        </div>
+    </div>
+</a>
+
+                    
         </div>
     
 
@@ -352,7 +388,12 @@ postshow();
 
 /* 座右铭 */
 
-   getHitokoto();
+    elasticText({
+        id: "mymotto",
+        duration: 100,
+        effact: "easeOut",
+        content: ""
+    });
 
 
 
